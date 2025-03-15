@@ -1,0 +1,25 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+}
+li a{
+    display: block;
+    background-color: rgb(230, 184, 230);
+    padding: 8px 10px;
+    text-decoration: none;
+    color: black;
+}
+li a:hover{
+    background-color: rgb(250, 199, 252);
+    color: white;
+}
+li a.activo{
+    background-color: purple;
+    color: rgb(181, 48, 233);
+}
+li a:hover:not(.activo){
+    background-color: rgb(243, 142, 243);
+    color: white;
+}
