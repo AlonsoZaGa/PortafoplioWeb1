@@ -1,0 +1,51 @@
+.capa1{
+    margin-left: 25%;
+    padding: 12px;
+    height: 1000px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    background-color: rgb(246, 182, 255);
+    overflow: auto;
+}
+li a{
+    display: block;
+    background-color: rgb(243, 182, 255);
+    padding: 8px 10px;
+    text-decoration: none;
+    color: black;
+}
+li a:hover{
+    background-color:  rgb(213, 153, 236);
+    color: white;
+}
+li a.activo{
+    background-color: purple;
+    color:  rgb(181, 48, 233);
+}
+li a:hover:not(.activo){
+    background-color:  rgb(229, 216, 235);
+    color: white;
+}
+h1{
+    font-family: "Rock Salt","arial", "calibri", sans-serif;
+}
+h2{
+    font-family: "Montserrat","arial", "calibri", sans-serif;
+}
+p{
+    text-align: justify;
+}
+@font-face {
+    font-family: "parrafos";
+    src: url("Noto_Sans_KR/NotoSansKR-VariableFont_wght.ttf")
+    format(truetype);
+}
+p{
+    font-family: "parrafos";
+}
