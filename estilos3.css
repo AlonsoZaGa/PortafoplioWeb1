@@ -36,14 +36,14 @@ h1{
     font-family: "Rock Salt","arial", "calibri", sans-serif;
 }
 h2{
-    font-family: "Montserrat","arial", "calibri", sans-serif;
+    font-family: "Bebas Neue","arial", "calibri", sans-serif;
 }
 p{
     text-align: justify;
 }
 @font-face {
     font-family: "parrafos";
-    src: url("Noto_Sans_KR/NotoSansKR-VariableFont_wght.ttf")
+    src: url("RobotoMono-VariableFont_wght.ttf")
     format(truetype);
 }
 p{
