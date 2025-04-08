@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Examen práctico Parcial 2</title>
+    <link rel="stylesheet" type="text/css" href="estilosExamen.css">
+</head>
+<body>
+    <h1>Examen práctico Parcial 2</h1>
+    <h2>Nombre del alumno(a): </h2>
+    <h3>Zacarias Garcia Louis Alonso</h3>
+    <input type="button" id="mostrar" value="Galería de imágenes" onmouseover="ocultar()" onmouseout="mostrar()">
+
+    <div class="galeria">
+        <div class="imagen">
+            <img src="pantalla1.jpg_large" id="img1" alt="Paisaje 1">
+        </div>
+        <div class="imagen">
+            <img src="pantalla2.webp" id="img2" alt="Paisaje 2">
+        </div>
+        <div class="imagen">
+            <img src="pantalla3.jpg" id="img3" alt="Paisaje 3">
+        </div>
+        <div class="imagen">
+            <img src="pantalla4.jpg" id="img4" alt="Paisaje 4">
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        function ocultar()
+        {
+            document.getElementById("img1").style.visibility="hidden";
+            document.getElementById("img2").style.visibility="hidden";
+            document.getElementById("img3").style.visibility="hidden";
+            document.getElementById("img4").style.visibility="hidden";
+        }
+        function mostrar()
+        {
+            document.getElementById("img1").style.visibility="visible";
+            document.getElementById("img2").style.visibility="visible";
+            document.getElementById("img3").style.visibility="visible";
+            document.getElementById("img4").style.visibility="visible";
+        }
+    </script>
+</body>
+</html>
