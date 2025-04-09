@@ -13,7 +13,7 @@
 }
 
 .encabezado{
-	background: rgb(151, 121, 221);
+	background: rgb(186, 144, 221);
 	color: white;
 	padding: 25px;
 	text-align: center;
@@ -30,9 +30,9 @@
 .texto1{
 	padding: 15px;
 	margin: 10px;
-	border: 1px solid rgb(151, 121, 221);
-	box-shadow: 5px 5px rgb(215, 192, 247) ;
-	color: rgb(222, 182, 255);
+	border: 1px solid rgb(186, 157, 231);
+	box-shadow: 5px 5px rgb(168, 140, 207) ;
+	color: lightpink;
 	flex: 1;
 
 }
@@ -41,7 +41,7 @@
 	padding: 10px;
 	border: 1px;
 	color: white;
-	background: rgb(151, 121, 221);
+	background: rgb(204, 173, 245);
 }
 
 @media(max-width:500px){
