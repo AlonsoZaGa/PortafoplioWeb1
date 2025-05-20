@@ -1,0 +1,56 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #b194d2;
+    padding: 30px;
+    text-align: center;
+}
+
+h1 {
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.Contenido {
+    background-color: white;
+    padding: 30px;
+    border-radius: 30px;
+    display: inline-block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #000000;
+    text-align: left;
+}
+
+input[type="text"],
+input[list],
+input[type="number"] {
+    padding: 8px;
+    width: 600px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="button"] {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 15px;
+    padding: 10px 250px;
+    background-color: #b34ae3;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: #b4b6ba;
+}
+
+.resultados {
+    margin-top: 20px;
+    color: #000000;
+}
