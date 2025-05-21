@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Brawl Stars</title>
+  <link rel="stylesheet" href="estilosEncPDF.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+
+  <h1>Preguntas sobre Brawl Stars</h1>
+
+  <form id="formulario">
+    <div class="pregunta">
+      <p>1. ¿Que Brawler dispara tres proyectiles que envenenan?</p>
+      <label><input type="radio" name="q1" value="crow">Crow</label>
+      <label><input type="radio" name="q1" value="cold">Cold</label>
+      <label><input type="radio" name="q1" value="darryl">Darryl</label>
+    </div>
+
+    <div class="pregunta">
+      <p>2. ¿Que modo de juego trata sobre derribar la caja ribal antes que tus enemigos?</p>
+      <label><input type="radio" name="q2" value="balon">Balon Brawl</label>
+      <label><input type="radio" name="q2" value="atraco">Atraco</label>
+      <label><input type="radio" name="q2" value="caza">Caza Estelar</label>
+    </div>
+
+    <div class="pregunta">
+      <p>3. ¿Que modo de juego gana el ultimo jugador de pie?</p>
+      <label><input type="radio" name="q3" value="competitivo">Competitivo</label>
+      <label><input type="radio" name="q3" value="gemas">Atrapa Gemas</label>
+      <label><input type="radio" name="q3" value="supervivencia">Supervivencia</label>
+    </div>
+
+    <div class="pregunta">
+      <p>4. ¿Que personaje tiene solo dos basicos y con su ulti se puede teletransportar a los enemigos?</p>
+      <label><input type="radio" name="q4" value="cordelius">Cordelius</label>
+      <label><input type="radio" name="q4" value="kenji">Kenji</label>
+      <label><input type="radio" name="q4" value="lily">Lily</label>
+    </div>
+
+    <div class="pregunta">
+      <p>5. ¿Que personaje dispara solo una bala desde lejos y con su ulti se puede volver a posicionar?</p>
+      <label><input type="radio" name="q5" value="byron">Byron</label>
+      <label><input type="radio" name="q5" value="piper">Piper</label>
+      <label><input type="radio" name="q5" value="angelo">Angelo</label>
+    </div>
+
+    <button type="button" onclick="evaluar()">Enviar</button>
+  </form>
+
+  <div id="resultado"></div>
+  <canvas id="grafica" width="400" height="200"></canvas>
+  <button onclick="crearPDF()">Descargar PDF</button>
+
+  <script src="formjs.js"></script>
+</body>
+</html>
